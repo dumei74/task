@@ -1,0 +1,79 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><!---->
+<html lang="ja" xml:lang="ja">
+<head>
+	<meta http-equiv="Content-Type">
+	<meta charset="UTF-8">
+	<title>Cend Project - 入力フォーム</title>
+	<meta name="keywords" content="セブ,ポストカード,郵送,絵葉書,留学,ハガキ,手紙,送る,フィリピン">
+	<meta name="description" content="セブから100円で故郷に手紙を送ろう！">
+	<link href="CP_style.css" rel="stylesheet" type="text/css" media="all" />
+</head>
+<body>
+	<p><span>セブ〜国外（主に日本）への絵葉書、お届けします！</span></p>
+	<div id="wrap" >
+	  <div id="input" class="flame">
+	    <h2>入力フォーム</h2>
+	       <form id="entryForm" action="#" method="post">
+		   <table border="1">
+				<tr><th>お名前：</th>	
+					<td><input type="text" name="" />様</td>
+				</tr>
+				<tr><th>枚数：</th>				
+					<td><select name="post">
+						<option value="" selected="selected">選択してください</option>
+						<option value="1〜5">1〜5</option>
+						<option value="6〜10">6〜10</option>
+						<option value="10〜15">10〜15</option>
+						<option value="15〜20">15〜20</option>
+						<option value="20〜25">20〜25</option>
+						<option value="25〜30">25〜30</option>
+						<option value="30〜35">30〜35</option>
+						<option value="35〜40">35〜40</option>
+						<option value="40〜">40〜</option>
+					</select>枚</td>
+				</tr>
+				<tr><th>待ち合わせ場所：</th>
+					<td><input type="radio" name="place" value="ayara" checked="checked" />アヤラ
+					<input type="radio" name="sex" value="その他" />その他</td>
+				</tr>
+				<tr><th>メールアドレス：</th>
+					<td><input type="text" name="email" />
+					@<input type="text" name="email" /></td>
+				</tr>
+				<tr><th>その他ご要望：</th>				
+					<td><textarea name="comment" rows="4" cols="40"></textarea></td>
+				</tr>
+		   </table>
+		   </form>
+ 	  </div>
+	    <p id="submit">
+	    <input type="submit" value="送信する！">
+	    <input type="submit" value="ホームへ戻る">
+	    </p>
+	</div><!--wrap-->
+	<a href="http://www.hogehoge.com/blog/" target="_blank">ピン・ポンDASH!!へ戻る</a>
+	<p id="more"><a href="mailto:a.ishii@sparks.link">お問い合わせ</a>
+	<a>リンクボタン群</a></p>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js" script type="text/javascript"></script>
+<script src="CP_script.js"></script>
+</body>
+</html>
+
+<!--
+【　メモ　】
+
+<p>お名前：「テキストボックス」様　　枚数　郵送費受け渡し方法　待ち合わせ場所　日時</p>
+
+<button type="button" id="btn3">利用する！</button>
+<button type="button" id="btn4">送信する！</button>
+<button type="button" id="btn5">ホームへ戻る</button>
+
+ブログリンク
+お問い合わせ
+
+#form{
+	table-layout: center;
+}
+
+-->
+

@@ -1,0 +1,84 @@
+@charset "utf-8";
+/**/
+
+/*外枠背景*/
+body{
+	background-color: #20b2aa;
+	background-repeat: repeat-x;
+}
+
+/*subtitle：セブ〜国外（主に日本）への絵葉書、お届けします！*/
+span{
+	color: #ff1493;
+	
+}
+
+
+/*中枠背景*/
+#wrap{
+	width: 700px;
+	margin: 5px auto;
+	padding: 40px 40px;
+	border: #f6bb9e 1px solid;
+	background-color: aqua;   /*→aquaは仮色。後で写真を挿入する。*/
+	background-image: url(beach-1213595_960_720.jpg);
+}
+
+
+/*title：Cend Project（センド・プロジェクト）*/
+h1{
+	color: #228b22;
+	text-align: center;
+	font-size: 200%;
+}
+
+
+/*内枠背景*/
+.flame{
+	margin: 10px 0;
+	padding: 2px 20px 130px 20px;
+	background-color: #fff;
+}
+
+
+/*「利用する！」ボタン*/
+#use{
+	text-align: center;
+}
+
+/*「送信する！」ボタン*/
+#submit{
+	text-align: center;
+}
+
+/*「ホームへ戻る」ボタン*/
+#gohome{
+	text-align: center;
+}
+
+
+/*ご利用ありがとうございます！*/
+h3{
+	color: #1e90ff;
+	text-align: center;
+	font-size: 200%;
+}
+
+
+/*下段リンク「お問い合わせ」「ボタン群」*/
+#more{
+	float: right;
+	margin: auto;
+}
+
+
+/*入力フォーム*/
+h2{
+	color: #6090ef;
+	text-align: center;
+	font-size: 200%;
+}
+
+
+
+
